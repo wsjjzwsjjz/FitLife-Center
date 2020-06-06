@@ -7,18 +7,33 @@
 <form action="/action_page.php">
   <label for="fname">First name:</label><br>
   <input type="text" id="fname" name="fname" value=""><br>
+  
   <label for="lname">Last name:</label><br>
   <input type="text" id="lname" name="lname" value=""><br>
+  
   <label for="lname">Address:</label><br>
   <input type="text" id="Address" name="Address" value=""><br><br>
-  <label for="lname">Type  of  Membership:</label><br> <br> 
+  
+  <label for="lname">Type  of  Membership:</label><br> 
+  <label for="membership"></label>
+  <select id="membership" name="membership">
+    <option value="Choose" selected>Choose</option>
+    <option value="monthly pay-as-you-go">monthly pay-as-you-go</option>
+    <option value="3 months">3 months</option>
+    <option value="6 months" >6 months</option>
+    <option value="12 months">12 months</option>
+  </select>
+  <br> <br> 
+  
   <label for="lname">Method of Payment:</label><br>  
   <input type="radio" id="debit" name="payment" value="debit">
   <label for="debit">Debit</label><br>
   <input type="radio" id="credit" name="payment" value="credit">
   <label for="credit">Credit</label><br><br>
   <input type="checkbox" id="email" name="email" value="email">
+  
   <label for="email">Want to receive  email  updates  about upcoming new promotions and latest news?</label><br><br>
+  
   <input type="submit" value="Submit" value="Sucess">
 </form> 
 
