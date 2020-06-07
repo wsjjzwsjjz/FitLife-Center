@@ -1,9 +1,25 @@
 .about_experience{
-    color: brown;
+    color: black;
 }
 .intro{
-    color: crimson;
+    color: black;
 }
 .yoga_class{
-    color: darkmagenta;
+    color: black;
+}
+.yoga_class{
+    float: left;
+    width: 25%;
+}
+.zumba_class{
+    float: left;
+    width: 25%;
+}
+.aerobics_class{
+    float: left;
+    width: 25%;
+}
+.cycling_class{
+    float: right ;
+    width: 25%;
 }
