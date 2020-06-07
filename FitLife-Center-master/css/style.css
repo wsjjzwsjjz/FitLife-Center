@@ -1,0 +1,63 @@
+body {
+    margin: 0;
+}
+/*for navigation */
+ul.nav__list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+ul.nav__list li.nav__item {
+    float: left;
+}
+ul.nav__list li.nav__item a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none; 
+}
+ul.nav__list li.nav__item a:hover:not(.active) {
+    background-color: #111;
+}
+ul.nav__list li.nav__item a.active {
+    background-color: #4CAF50;
+}
+@media screen and (max-width: 600px) {
+    ul.nav__list li.nav__item {float: none;}
+  }
+
+
+/*
+.about_experience{
+    color: black;
+}
+.intro{
+    color: black;
+}
+.yoga_class{
+    color: black;
+}
+.yoga_class{
+    float: left;
+    width: 25%;
+}
+.zumba_class{
+    float: left;
+    width: 25%;
+}
+.aerobics_class{
+    float: left;
+    width: 25%;
+}
+.cycling_class{
+    float: right ;
+    width: 25%;
+}
+*/
